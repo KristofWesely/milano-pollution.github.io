@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Pollution Milano</title>
-    <link>https://milano-pollution.github.io/categories/</link>
+    <link>http://www.blog.milano-pollution.com//categories/</link>
     <description>Recent content in Categories on Pollution Milano</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://milano-pollution.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://www.blog.milano-pollution.com//categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
