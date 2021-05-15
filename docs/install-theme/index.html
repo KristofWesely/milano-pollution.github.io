@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Install Theme - Pollution Milano</title>
+  <title>Explanatory analysis - Milano Pollution related to COVID</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="icon" href="http://www.blog.milano-pollution.com/favicon.png">
+  <link rel="icon" href="https://kristofwesely.github.io/milano-pollution.github.io/favicon.png">
 
   
   
-  <link rel="stylesheet" href="/css/style.min.6719d72e323121369d5caeb4264b95d8a63cf1deaab029da67602fe5a046e0a4.css">
+  <link rel="stylesheet" href="/milano-pollution.github.io/css/style.min.6719d72e323121369d5caeb4264b95d8a63cf1deaab029da67602fe5a046e0a4.css">
   
 
   
@@ -24,13 +24,13 @@
     
     
     <li class="menu-item-home">
-      <a href="/">
+      <a href="/milano-pollution.github.io/">
         <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-docs">
-      <a href="/docs/">
+      <a href="/milano-pollution.github.io/docs/">
         <span>Docs</span>
       </a>
     </li>
@@ -41,23 +41,23 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="http://www.blog.milano-pollution.com//"><img alt="Logo" src="/images/logo.svg" /></a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/"><img alt="Logo" src="/milano-pollution.github.io/images/logo.svg" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="http://www.blog.milano-pollution.com//"><img alt="Logo" src="/images/logo-mobile.svg" /></a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/"><img alt="Logo" src="/milano-pollution.github.io/images/logo-mobile.svg" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   <ul>
     
     
     <li class="menu-item-home">
-      <a href="/">
+      <a href="/milano-pollution.github.io/">
         <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-docs">
-      <a href="/docs/">
+      <a href="/milano-pollution.github.io/docs/">
         <span>Docs</span>
       </a>
     </li>
@@ -91,23 +91,19 @@
   <ul>
     
     <li class="">
-      <a href="http://www.blog.milano-pollution.com//docs/install-hugo/">Install Hugo</a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/docs/install-hugo/">Dataset</a>
     </li>
     
     <li class="active ">
-      <a href="http://www.blog.milano-pollution.com//docs/install-theme/">Install Theme</a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/docs/install-theme/">Explanatory analysis</a>
     </li>
     
     <li class="">
-      <a href="http://www.blog.milano-pollution.com//docs/configure/">Configuration</a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/docs/configure/">Maps and stations</a>
     </li>
     
     <li class="">
-      <a href="http://www.blog.milano-pollution.com//docs/specimen/">Specimen</a>
-    </li>
-    
-    <li class="">
-      <a href="http://www.blog.milano-pollution.com//docs/example/">Hugo Whisper</a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/docs/specimen/">Contributions</a>
     </li>
     
   </ul>
@@ -117,35 +113,28 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Install Theme</h1>
+<h1 class="title">Explanatory analysis</h1>
 <div class="content ">
-  <h2 id="create-a-new-hugo-site">Create a new Hugo site</h2>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo new site mynewsite
-</code></pre></div><p>This will create a fresh Hugo site in the folder <code>mynewsite</code>.</p>
-<h2 id="install-theme">Install theme</h2>
-<p>Copy or git clone this theme into the sites themes folder <code>mynewsite/themes</code></p>
-<h4 id="install-with-git">Install with Git</h4>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">cd mynewsite
-cd themes
-git clone https://github.com/jugglerx/hugo-whisper-theme.git
-</code></pre></div><h4 id="install-from-zip-file">Install from .zip file</h4>
-<p>You can download the .zip file located here <a href="https://github.com/JugglerX/hugo-whisper-theme/archive/master.zip">https://github.com/JugglerX/hugo-whisper-theme/archive/master.zip</a>.</p>
-<p>Extract the downloaded .zip inside the <code>themes</code> folder. Rename the extracted folder from <code>hugo-whisper-theme-master</code> -&gt; <code>hugo-whisper-theme</code>. You should end up with the following folder structure <code>mynewsite/themes/hugo-whisper-theme</code></p>
-<h2 id="add-example-content">Add example content</h2>
-<p>The fastest way to get started is to copy the example content and modify the included <code>config.toml</code></p>
-<h3 id="copy-examplesite-contents">Copy exampleSite contents</h3>
-<p>Copy the entire contents of the <code>exampleSite</code> folder to the root folder of your Hugo site <em>(the folder with the README.md)</em>.</p>
-<h3 id="update-configtoml">Update config.toml</h3>
-<p>After you copy the <code>config.toml</code> into the root folder of your Hugo site you will need to update the <code>baseURL</code>, <code>themesDir</code> and <code>theme</code> values in the <code>config.toml</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">baseURL = &#34;/&#34;
-themesDir = &#34;themes&#34;
-theme = &#34;hugo-whisper-theme&#34;
-</code></pre></div><h2 id="run-hugo">Run Hugo</h2>
-<p>After installing the theme for the first time, generate the Hugo site.</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo
-</code></pre></div><p>For local development run Hugo&rsquo;s built-in local server.</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo server
-</code></pre></div><p>Now enter <a href="http://localhost:1313"><code>localhost:1313</code></a> in the address bar of your browser.</p>
+  <h2 id="genre">Genre</h2>
+<p>Our visualization blends elements of the slide show narrative visualization and of the annotated charts. The plots are structured according to a consistent visual style, for example with the color blue identifying the average from the years previous to 2020. Furthermore, the map visualization features a time bar and, as a highlight, allows for zooming in and out.</p>
+<p>Pertaining to the narrative ordering, we have chosen a linear disposition of the plots, starting with those explaining trends from previous years and then visualizing the plots that illustrate the main subject of the project, namely the relationship between the 2020 lockdown and pollution.</p>
+<p>The overall project features limited interactivity (which is present only in the map data visualization)and explicit instructions that aid the user&rsquo;s understanding of the plots. This is done mostly through captions and headlines, annotations and texts.</p>
+<h2 id="visualization">Visualization</h2>
+<h3 id="seasonal-trends-of-pollutants-concentration">Seasonal trends of pollutants’ concentration</h3>
+<p>Each blue line represents the annual trend in concentration for each pollutant, from the year 2015 to 2019. With a few irregularities, the pollutant having the most being NO2, each graph shows very clearly how these substances behave during different seasons. Most of them follow a clear pattern that indicates a decrease in concentration during the spring months, followed by an increase during autumn, with winter being the time with highest concentration of pollution. The only exception to this trend is represented by O3, which follow the opposite pattern, being at its highest concentration during the summer months.</p>
+<p><img src="/images/pol.jpg" alt="Pollutants"></p>
+<p>We are now going to plot the main graph of our visualization. As a first thing we are reproducing the yearly averages from the above plots. This time they are painted light grey and the lines are thinner as their importance is secondary. Their purpose is to be confronted with the thick blue line that represents the total average from the years 2015-2019. The blue line stands in opposition to the red line, which shows the average from the year 2020.</p>
+<p>A green area bounded by two dashed lines represents the time range of the lockdown from March to June. Three more green lines in the month of May indicate the date of gradual reopenings of certain activities.</p>
+<h3 id="pollutants-trend-following-the-covid-lockdown">Pollutants’ trend following the COVID lockdown</h3>
+<p>Here we can see the comparison between how pollution in Milan behaved in 2020, especially during and after the lockdown, and its behaviour during the past years. As we can see, in the case of NO2, CO and C6H6, the shutting down of human activities between the months of March and May helped in keeping low concentration of pollution during the spring months. Despite being spring, thus a season of lower concentration for these pollutant agents, the year’s concentration during and after the lockdown is significantly lower than the average from the previous years.</p>
+<p><img src="/images/covid.jpg" alt="CovidPollutants"></p>
+<p>More interesting is the case for the other pollutants. As we can see, the concentration of both PM10 and PM25 decreased steadily during the lockdown, only to see a small spike right after June 3rd, when transportation between different regions reopened. A similar behaviour can be observed regarding O3, whose seasonal rise in concentration (higher than the previous years’ average) decreased steadily about a month after the beginning of the lockdown. After June, it rose again reaching a peak in July, however still maintaining significantly lower levels than previous years.</p>
+<p><img src="/images/explanatory.jpg" alt="ExplanatoryCovidPollutants"></p>
+<iframe src="/html/map_C6H6.html" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+
+<p>&laquo;&raquo;</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
 
 </div>
 </div>
@@ -176,7 +165,7 @@ theme = &#34;hugo-whisper-theme&#34;
   
 
   
-  <script type="text/javascript" src="/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
+  <script type="text/javascript" src="/milano-pollution.github.io/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
   
 
   

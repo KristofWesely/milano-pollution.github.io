@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Install Hugo - Pollution Milano</title>
+  <title>Dataset - Milano Pollution related to COVID</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="icon" href="http://www.blog.milano-pollution.com/favicon.png">
+  <link rel="icon" href="https://kristofwesely.github.io/milano-pollution.github.io/favicon.png">
 
   
   
-  <link rel="stylesheet" href="/css/style.min.6719d72e323121369d5caeb4264b95d8a63cf1deaab029da67602fe5a046e0a4.css">
+  <link rel="stylesheet" href="/milano-pollution.github.io/css/style.min.6719d72e323121369d5caeb4264b95d8a63cf1deaab029da67602fe5a046e0a4.css">
   
 
   
@@ -24,13 +24,13 @@
     
     
     <li class="menu-item-home">
-      <a href="/">
+      <a href="/milano-pollution.github.io/">
         <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-docs">
-      <a href="/docs/">
+      <a href="/milano-pollution.github.io/docs/">
         <span>Docs</span>
       </a>
     </li>
@@ -41,23 +41,23 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="http://www.blog.milano-pollution.com//"><img alt="Logo" src="/images/logo.svg" /></a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/"><img alt="Logo" src="/milano-pollution.github.io/images/logo.svg" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="http://www.blog.milano-pollution.com//"><img alt="Logo" src="/images/logo-mobile.svg" /></a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/"><img alt="Logo" src="/milano-pollution.github.io/images/logo-mobile.svg" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   <ul>
     
     
     <li class="menu-item-home">
-      <a href="/">
+      <a href="/milano-pollution.github.io/">
         <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-docs">
-      <a href="/docs/">
+      <a href="/milano-pollution.github.io/docs/">
         <span>Docs</span>
       </a>
     </li>
@@ -91,23 +91,19 @@
   <ul>
     
     <li class="active ">
-      <a href="http://www.blog.milano-pollution.com//docs/install-hugo/">Install Hugo</a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/docs/install-hugo/">Dataset</a>
     </li>
     
     <li class="">
-      <a href="http://www.blog.milano-pollution.com//docs/install-theme/">Install Theme</a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/docs/install-theme/">Explanatory analysis</a>
     </li>
     
     <li class="">
-      <a href="http://www.blog.milano-pollution.com//docs/configure/">Configuration</a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/docs/configure/">Maps and stations</a>
     </li>
     
     <li class="">
-      <a href="http://www.blog.milano-pollution.com//docs/specimen/">Specimen</a>
-    </li>
-    
-    <li class="">
-      <a href="http://www.blog.milano-pollution.com//docs/example/">Hugo Whisper</a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/docs/specimen/">Contributions</a>
     </li>
     
   </ul>
@@ -117,13 +113,151 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Install Hugo</h1>
+<h1 class="title">Dataset</h1>
 <div class="content ">
-  <p>To use this theme you will need to have Hugo installed. If you don&rsquo;t already have Hugo installed please follow the official <a href="https://gohugo.io/getting-started/installing/">installation guide</a></p>
-<h3 id="check-hugo-version">Check Hugo Version</h3>
-<p>This theme uses <a href="https://gohugo.io/hugo-pipes/scss-sass/">Hugo Pipes</a> to compile SCSS and minify assets. Please make sure you have the <code>Hugo Extended</code> version installed. If you are not using the extended version this theme will not not compile.</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">hugo version
-</code></pre></div>
+  <p>The dataset we have decided to analyse collects data relating to the measurements of air pollutants in the municipality of Milan. This data is freely available from <a href="https://web.comune.milano.it/cortesia/opendata.html">https://web.comune.milano.it/cortesia/opendata.html</a>. The following pollutants' concentrations are measured:<!-- raw HTML omitted --></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Sign</th>
+<th style="text-align:right">Name</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">NO2</td>
+<td style="text-align:right">Nitrogen Dioxide</td>
+</tr>
+<tr>
+<td style="text-align:left">CO_8h</td>
+<td style="text-align:right">Carbon monoxide</td>
+</tr>
+<tr>
+<td style="text-align:left">C6H6</td>
+<td style="text-align:right">Benzene</td>
+</tr>
+<tr>
+<td style="text-align:left">PM10</td>
+<td style="text-align:right">&lt;10 micrometer particles</td>
+</tr>
+<tr>
+<td style="text-align:left">O3</td>
+<td style="text-align:right">Ozone</td>
+</tr>
+<tr>
+<td style="text-align:left">PM25</td>
+<td style="text-align:right">&lt;2.5 micrometer particles</td>
+</tr>
+<tr>
+<td style="text-align:left">SO2</td>
+<td style="text-align:right">Sulfur dioxide</td>
+</tr>
+</tbody>
+</table>
+<p>The air pollution measurements are done by 9 stations across the city:
+<iframe src="/html/map.html" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+</p>
+<h3 id="preprocessing-and-statistics">Preprocessing and Statistics</h3>
+<p>The data is organized in different datasets according to the year the measurements were made in. We are looking into measurements from 2015-2020. There are 8 different air pollutant levels recorded in the datasets:
+The datasets are in the following format:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right"></th>
+<th style="text-align:right">stazione_id</th>
+<th style="text-align:left">data</th>
+<th style="text-align:left">inquinante</th>
+<th style="text-align:right">valore</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">0</td>
+<td style="text-align:right">2</td>
+<td style="text-align:left">2015-01-01</td>
+<td style="text-align:left">SO2</td>
+<td style="text-align:right">2.5</td>
+</tr>
+<tr>
+<td style="text-align:right">1</td>
+<td style="text-align:right">2</td>
+<td style="text-align:left">2015-01-02</td>
+<td style="text-align:left">SO2</td>
+<td style="text-align:right">2.5</td>
+</tr>
+<tr>
+<td style="text-align:right">2</td>
+<td style="text-align:right">2</td>
+<td style="text-align:left">2015-01-03</td>
+<td style="text-align:left">SO2</td>
+<td style="text-align:right">2.5</td>
+</tr>
+<tr>
+<td style="text-align:right">3</td>
+<td style="text-align:right">2</td>
+<td style="text-align:left">2015-01-04</td>
+<td style="text-align:left">SO2</td>
+<td style="text-align:right">2.5</td>
+</tr>
+<tr>
+<td style="text-align:right">4</td>
+<td style="text-align:right">2</td>
+<td style="text-align:left">2015-01-05</td>
+<td style="text-align:left">SO2</td>
+<td style="text-align:right">5</td>
+</tr>
+</tbody>
+</table>
+<p>The datasets consider the following features:</p>
+<ul>
+<li>ID of the station where the measurement was made;</li>
+<li>date of the measurement (note: measurements are made only during workdays);</li>
+<li>name of pollutant;</li>
+<li>value of the measurement in g/m^3. It must be noted that a pollutant&rsquo;s concentration can be measured multiples times a day, sometimes with no regular pattern. Furthermore, the &lsquo;value&rsquo; column contains a high number of missing values (as shown further down).</li>
+</ul>
+<p>Each year&rsquo;s ds contains a somewhat balanced number of observations, between 5700 and 6300, however there are a number of missing values. After dropping the missing values the following number of observation was left:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left"></th>
+<th style="text-align:right">entries</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">NO2</td>
+<td style="text-align:right">9070</td>
+</tr>
+<tr>
+<td style="text-align:left">CO_8h</td>
+<td style="text-align:right">4985</td>
+</tr>
+<tr>
+<td style="text-align:left">C6H6</td>
+<td style="text-align:right">4300</td>
+</tr>
+<tr>
+<td style="text-align:left">PM10</td>
+<td style="text-align:right">4212</td>
+</tr>
+<tr>
+<td style="text-align:left">O3</td>
+<td style="text-align:right">3470</td>
+</tr>
+<tr>
+<td style="text-align:left">PM25</td>
+<td style="text-align:right">2640</td>
+</tr>
+<tr>
+<td style="text-align:left">SO2</td>
+<td style="text-align:right">1708</td>
+</tr>
+</tbody>
+</table>
+<p>Let&rsquo;s take a look on the distribution of values by ploting histograms:</p>
+<p><img src="/images/hist.jpg" alt="Histograms"></p>
+<p>The distribution looks fine, there are a quite a few high values which indicate unhealthy pollution levels.</p>
+
 </div>
 </div>
 
@@ -153,7 +287,7 @@
   
 
   
-  <script type="text/javascript" src="/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
+  <script type="text/javascript" src="/milano-pollution.github.io/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
   
 
   

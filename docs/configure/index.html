@@ -4,14 +4,14 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Configuration - Pollution Milano</title>
+  <title>Maps and stations - Milano Pollution related to COVID</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <link rel="icon" href="http://www.blog.milano-pollution.com/favicon.png">
+  <link rel="icon" href="https://kristofwesely.github.io/milano-pollution.github.io/favicon.png">
 
   
   
-  <link rel="stylesheet" href="/css/style.min.6719d72e323121369d5caeb4264b95d8a63cf1deaab029da67602fe5a046e0a4.css">
+  <link rel="stylesheet" href="/milano-pollution.github.io/css/style.min.6719d72e323121369d5caeb4264b95d8a63cf1deaab029da67602fe5a046e0a4.css">
   
 
   
@@ -24,13 +24,13 @@
     
     
     <li class="menu-item-home">
-      <a href="/">
+      <a href="/milano-pollution.github.io/">
         <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-docs">
-      <a href="/docs/">
+      <a href="/milano-pollution.github.io/docs/">
         <span>Docs</span>
       </a>
     </li>
@@ -41,23 +41,23 @@
     <div class='header'>
   <div class="container">
     <div class="logo">
-      <a href="http://www.blog.milano-pollution.com//"><img alt="Logo" src="/images/logo.svg" /></a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/"><img alt="Logo" src="/milano-pollution.github.io/images/logo.svg" /></a>
     </div>
     <div class="logo-mobile">
-      <a href="http://www.blog.milano-pollution.com//"><img alt="Logo" src="/images/logo-mobile.svg" /></a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/"><img alt="Logo" src="/milano-pollution.github.io/images/logo-mobile.svg" /></a>
     </div>
     <div id="main-menu" class="main-menu">
   <ul>
     
     
     <li class="menu-item-home">
-      <a href="/">
+      <a href="/milano-pollution.github.io/">
         <span>Home</span>
       </a>
     </li>
     
     <li class="menu-item-docs">
-      <a href="/docs/">
+      <a href="/milano-pollution.github.io/docs/">
         <span>Docs</span>
       </a>
     </li>
@@ -91,23 +91,19 @@
   <ul>
     
     <li class="">
-      <a href="http://www.blog.milano-pollution.com//docs/install-hugo/">Install Hugo</a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/docs/install-hugo/">Dataset</a>
     </li>
     
     <li class="">
-      <a href="http://www.blog.milano-pollution.com//docs/install-theme/">Install Theme</a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/docs/install-theme/">Explanatory analysis</a>
     </li>
     
     <li class="active ">
-      <a href="http://www.blog.milano-pollution.com//docs/configure/">Configuration</a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/docs/configure/">Maps and stations</a>
     </li>
     
     <li class="">
-      <a href="http://www.blog.milano-pollution.com//docs/specimen/">Specimen</a>
-    </li>
-    
-    <li class="">
-      <a href="http://www.blog.milano-pollution.com//docs/example/">Hugo Whisper</a>
+      <a href="https://kristofwesely.github.io/milano-pollution.github.io/docs/specimen/">Contributions</a>
     </li>
     
   </ul>
@@ -117,35 +113,49 @@
         </div>
         <div class="col-12 col-md-9">
           
-<h1 class="title">Configuration</h1>
+<h1 class="title">Maps and stations</h1>
 <div class="content ">
-  <h2 id="syntax-highlighting">Syntax Highlighting</h2>
-<p>Whisper uses the in-built code highlighting that ships with hugo. <a href="https://gohugo.io/content-management/syntax-highlighting/">https://gohugo.io/content-management/syntax-highlighting/</a></p>
-<p>You can insert code snippets in any markdown file by using standard code fences syntax ie:</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">```
-insert code here
-```
-</code></pre></div><p>You can specify the langauge by adding a declaration after the backticks</p>
-<div class="highlight"><pre class="chroma"><code class="language-fallback" data-lang="fallback">```javascript
-insert code here
-```
-</code></pre></div><h3 id="pygments-options">Pygments Options</h3>
-<p>The following code highlighting options are configured in the <code>config.toml</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="nx">pygmentsCodeFences</span> <span class="p">=</span> <span class="kc">true</span>
-<span class="nx">pygmentsCodefencesGuessSyntax</span> <span class="p">=</span> <span class="kc">true</span>
-<span class="nx">pygmentsUseClasses</span> <span class="p">=</span> <span class="kc">true</span>
-</code></pre></div><h2 id="main-menu">Main menu</h2>
-<p>Configure the main menu by editing the <code>config.toml</code></p>
-<div class="highlight"><pre class="chroma"><code class="language-toml" data-lang="toml"><span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-<span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Home&#34;</span>
-<span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/&#34;</span>
-<span class="nx">weight</span> <span class="p">=</span> <span class="mi">1</span>
+  <p><iframe src="/html/map.html" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
 
-<span class="p">[[</span><span class="nx">menu</span><span class="p">.</span><span class="nx">main</span><span class="p">]]</span>
-<span class="nx">name</span> <span class="p">=</span> <span class="s2">&#34;Docs&#34;</span>
-<span class="nx">url</span> <span class="p">=</span> <span class="s2">&#34;/docs/&#34;</span>
-<span class="nx">weight</span> <span class="p">=</span> <span class="mi">2</span>
-</code></pre></div>
+<!-- raw HTML omitted --></p>
+<h1 id="air-quality-color-coding">Air quality color coding</h1>
+<p><img src="/images/quality.jpg" alt="AirQuality"></p>
+<h1 id="nitrogen-dioxide">Nitrogen Dioxide</h1>
+<p><iframe src="/html/map_NO2.html" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+
+<!-- raw HTML omitted --></p>
+<p><img src="/images/NO2.jpg" alt="NO2"></p>
+<h1 id="carbon-monoxide">Carbon monoxide</h1>
+<p><iframe src="/html/map_CO_8h.html" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+
+<!-- raw HTML omitted --></p>
+<p><img src="/images/CO_8h.jpg" alt="NO2"></p>
+<h1 id="benzene">Benzene</h1>
+<p><iframe src="/html/map_C6H6.html" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+
+<!-- raw HTML omitted --></p>
+<p><img src="/images/C6H6.jpg" alt="NO2"></p>
+<h1 id="10-micrometer-particles">&lt;10 micrometer particles</h1>
+<p><iframe src="/html/map_PM10.html" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+
+<!-- raw HTML omitted --></p>
+<p><img src="/images/PM10.jpg" alt="NO2"></p>
+<h1 id="25-micrometer-particles">&lt;2.5 micrometer particles</h1>
+<p><iframe src="/html/map_PM25.html" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+
+<!-- raw HTML omitted --></p>
+<p><img src="/images/PM25.jpg" alt="NO2"></p>
+<h1 id="ozone">Ozone</h1>
+<p><iframe src="/html/map_O3.html" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+
+<!-- raw HTML omitted --></p>
+<p><img src="/images/O3.jpg" alt="NO2"></p>
+<h1 id="sulfur-dioxide">Sulfur dioxide</h1>
+<p><iframe src="/html/map_SO2.html" width="1088" height="637" frameborder="0" allowfullscreen="allowfullscreen" allow="geolocation *; microphone *; camera *; midi *; encrypted-media *"></iframe>
+
+<!-- raw HTML omitted --></p>
+<p><img src="/images/SO2.jpg" alt="NO2"></p>
+
 </div>
 </div>
 
@@ -175,7 +185,7 @@ insert code here
   
 
   
-  <script type="text/javascript" src="/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
+  <script type="text/javascript" src="/milano-pollution.github.io/js/scripts.min.eaf147370baecdd07c022597db631f99cab1c9cd6479de586f30327a568d6a0f.js"></script>
   
 
   

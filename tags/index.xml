@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Pollution Milano</title>
-    <link>http://www.blog.milano-pollution.com//tags/</link>
-    <description>Recent content in Tags on Pollution Milano</description>
+    <title>Tags on Milano Pollution related to COVID</title>
+    <link>https://kristofwesely.github.io/milano-pollution.github.io/tags/</link>
+    <description>Recent content in Tags on Milano Pollution related to COVID</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://www.blog.milano-pollution.com//tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://kristofwesely.github.io/milano-pollution.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

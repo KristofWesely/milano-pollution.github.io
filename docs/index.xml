@@ -1,57 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Overview on Pollution Milano</title>
-    <link>http://www.blog.milano-pollution.com//docs/</link>
-    <description>Recent content in Overview on Pollution Milano</description>
+    <title>Overview on Milano Pollution related to COVID</title>
+    <link>https://kristofwesely.github.io/milano-pollution.github.io/docs/</link>
+    <description>Recent content in Overview on Milano Pollution related to COVID</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="http://www.blog.milano-pollution.com//docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 28 Nov 2018 15:14:39 +1000</lastBuildDate><atom:link href="https://kristofwesely.github.io/milano-pollution.github.io/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Install Hugo</title>
-      <link>http://www.blog.milano-pollution.com//docs/install-hugo/</link>
+      <title>Dataset</title>
+      <link>https://kristofwesely.github.io/milano-pollution.github.io/docs/install-hugo/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>http://www.blog.milano-pollution.com//docs/install-hugo/</guid>
-      <description>To use this theme you will need to have Hugo installed. If you don&amp;rsquo;t already have Hugo installed please follow the official installation guide
-Check Hugo Version This theme uses Hugo Pipes to compile SCSS and minify assets.</description>
+      <guid>https://kristofwesely.github.io/milano-pollution.github.io/docs/install-hugo/</guid>
+      <description>The dataset we have decided to analyse collects data relating to the measurements of air pollutants in the municipality of Milan. This data is freely available from https://web.comune.milano.it/cortesia/opendata.html. The following pollutants&#39; concentrations are measured:   Sign Name     NO2 Nitrogen Dioxide   CO_8h Carbon monoxide   C6H6 Benzene   PM10 &amp;lt;10 micrometer particles   O3 Ozone   PM25 &amp;lt;2.</description>
     </item>
     
     <item>
-      <title>Install Theme</title>
-      <link>http://www.blog.milano-pollution.com//docs/install-theme/</link>
+      <title>Explanatory analysis</title>
+      <link>https://kristofwesely.github.io/milano-pollution.github.io/docs/install-theme/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>http://www.blog.milano-pollution.com//docs/install-theme/</guid>
-      <description>Create a new Hugo site hugo new site mynewsite This will create a fresh Hugo site in the folder mynewsite.
-Install theme Copy or git clone this theme into the sites themes folder mynewsite/themes</description>
+      <guid>https://kristofwesely.github.io/milano-pollution.github.io/docs/install-theme/</guid>
+      <description>Genre Our visualization blends elements of the slide show narrative visualization and of the annotated charts. The plots are structured according to a consistent visual style, for example with the color blue identifying the average from the years previous to 2020.</description>
     </item>
     
     <item>
-      <title>Configuration</title>
-      <link>http://www.blog.milano-pollution.com//docs/configure/</link>
+      <title>Maps and stations</title>
+      <link>https://kristofwesely.github.io/milano-pollution.github.io/docs/configure/</link>
       <pubDate>Mon, 11 Feb 2019 19:30:08 +1000</pubDate>
       
-      <guid>http://www.blog.milano-pollution.com//docs/configure/</guid>
-      <description>Syntax highlighting and menus can be configured via &lt;code&gt;config.toml&lt;/code&gt;.</description>
+      <guid>https://kristofwesely.github.io/milano-pollution.github.io/docs/configure/</guid>
+      <description>Station measurements over time displayed on Milano&amp;rsquo;s Map for each pollutant</description>
     </item>
     
     <item>
-      <title>Specimen</title>
-      <link>http://www.blog.milano-pollution.com//docs/specimen/</link>
+      <title>Contributions</title>
+      <link>https://kristofwesely.github.io/milano-pollution.github.io/docs/specimen/</link>
       <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
       
-      <guid>http://www.blog.milano-pollution.com//docs/specimen/</guid>
-      <description>Markdown Test Page  Headings Paragraphs Blockquotes Lists Horizontal rule Table Code Inline elements   Headings Heading one Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor.</description>
-    </item>
-    
-    <item>
-      <title>Hugo Whisper</title>
-      <link>http://www.blog.milano-pollution.com//docs/example/</link>
-      <pubDate>Mon, 11 Feb 2019 19:27:37 +1000</pubDate>
-      
-      <guid>http://www.blog.milano-pollution.com//docs/example/</guid>
-      <description>&lt;p&gt;Whisper is a minimal documentation theme built for Hugo. The design &amp;amp; functionality is intentionally minimal.&lt;/p&gt;</description>
+      <guid>https://kristofwesely.github.io/milano-pollution.github.io/docs/specimen/</guid>
+      <description>02806 Social data analysis - Final project Date: 14.05.2021     Plots Map visualization Website layout Description and comments     Kristof  X X    Arturo X   X    </description>
     </item>
     
   </channel>
